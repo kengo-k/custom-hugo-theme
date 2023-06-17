@@ -7,7 +7,10 @@
 {{- $defaultFooterLogo := printf "%s%s" $iconsDir "apple-touch-icon.png"}}
 <footer class="footer">
   <div class="footer_inner wrap pale" style="grid-template-columns: 1fr;">
-    <p>©{{ with $s.since }}&nbsp;{{ . }}-{{ end }}&nbsp;<span class="year"></span>&nbsp;{{ upper $c }}. {{ T "all_rights" | markdownify }}</p>
+    <p>
+      ©{{ with $s.since }}&nbsp;{{ . }}-{{ end }}&nbsp;<span class="year"></span>&nbsp;{{ upper $c }}. {{ T "all_rights" | markdownify }};
+      App icon by <a href="https://icons8.jp/" style="text-decoration: underline;">icons8</a>
+    </p>
     {{- partialCached "top" .}}
   </div>
 </footer>
