@@ -8,8 +8,9 @@
     </div>
     {{- with .Params.thumbnail }}
     <div class="excerpt_footer partition">
-      <div class="excerpt_thumbnail">
-        {{- partial "image" (dict "file" . "alt" $.Title "type" "thumbnail" "Page" $.Page ) }}
+      <div class="excerpt_thumbnail" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+        {{ $thumbnail := (index (where $.Site.Data.thumbnails "key" .) 0)}}
+        {{- partial "image" (dict "file" $thumbnail.path "alt" $.Title "type" "thumbnail" "Page" $.Page ) }}
       </div>
       {{ else }}
       <div class="excerpt_footer">
