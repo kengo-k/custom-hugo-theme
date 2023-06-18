@@ -37,6 +37,7 @@
 
 <!-- link main css file -->
 <link rel="stylesheet" type="text/css" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">
+{{ partial "custom_head.html" . }}
 <!-- load all custom css files -->
 {{- with $params.customCSS }}
   {{- range . -}}
