@@ -10,7 +10,11 @@
     <div class="excerpt_footer partition">
       <div class="excerpt_thumbnail" style="display: flex; justify-content: center; align-items: center; height: 100%;">
         {{ $thumbnail := (index (where $.Site.Data.thumbnails "key" .) 0)}}
-        {{- partial "image" (dict "file" $thumbnail.path "alt" $.Title "type" "thumbnail" "Page" $.Page ) }}
+        <figure>
+          <picture>
+            <img width="256px" height="256px" loading="lazy" decoding="async" src="{{ $thumbnail.path }}" alt="{{ $.Title }}" class="image_figure image_thumbnail image_internal image_unprocessed" />
+          </picture>
+        </figure>
       </div>
       {{ else }}
       <div class="excerpt_footer">
