@@ -29,7 +29,7 @@
           {{ end }}
           <br>
           {{- $r := T "read_more" }}
-          <a href="{{ .Permalink }}" title="{{ $r }}" class="excerpt_more button">{{ $r }}</a>
+          <a href="{{ .Permalink }}" title="{{ $r }}" aria-label="Read More: {{ $.Page.Title }}" class="excerpt_more button">{{ $r }}</a>
         </div>
       </div>
     </div>
