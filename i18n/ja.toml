@@ -1,5 +1,5 @@
 [read_more]
-other = "続きを読む"
+other = "Read More"
 
 [copyright]
 other = "Copyright"
@@ -8,65 +8,65 @@ other = "Copyright"
 other = "All Rights Reserved"
 
 [share_on]
-other = "共有する"
+other = "Share on"
 
 [featured_posts]
-other = "おすすめの投稿"
+other = "Featured Posts"
 
 [recent_posts]
-other = "最近の投稿"
+other = "Recent Posts"
 
 [404_title]
-other = "存在しません"
+other = "Lost"
 
 [could_not_find]
-other = "お探しのページを見つけることができませんでした"
+other = "We couldn't find the page you're looking for"
 
 [go_back]
-other = "戻る"
+other = "Go Back"
 
 [translations]
-other = "翻訳"
+other = "Translations"
 
 [categories]
-other = "カテゴリ"
+other = "Categories"
 
 [tags]
-other = "タグ"
+other = "Tags"
 
 [series]
-other = "シリーズ"
+other = "Series"
 
 [all_categories]
-other = "全てのカテゴリ"
+other = "All Categories"
 
 [all_tags]
-other = "全てのタグ"
+other = "All Tags"
 
 [all_series]
-other = "全てのシリーズ"
+other = "All Series"
 
 [overview]
-other = "概要"
+other = "Overview"
 
 [reading_time]
-other = "{{ .ReadingTime }} 分で読了"
+other = "{{ .ReadingTime }} min read"
 
 [series_posts]
-other = "このシリーズの投稿"
+other = "Posts in this series"
 
 # search
 [quick_links]
-  other = "結果"
+  other = "Results"
 [no_matches]
-  other = "結果が存在しません"
+  other = "No results found"
 [search_field_placeholder]
-  other = "ナレッジベース内を検索"
+  other = "Search the knowledge base"
 [blog_search_field_placeholder]
-  other = "検索..."
+  other = "Search..."
 [search_results_label]
-  other = "検索結果"
+  other = "Search Results"
 [short_search_query]
-  other = "検索文字列が短すぎます"
+  other = "Query is too short"
 [type_to_search]
-  other = "入力して検索"
+  other = "Type to search"
